@@ -19,6 +19,16 @@ public class ClassStart5 {
         for(int i =0; i< students.length; i++){
             System.out.println("이름:" + students[0].name + " 나이:" + students[0].age + " 성적:" + students[0].grade);
         }
+
+        for(int i =0; i< students.length; i++){
+            Student s  = students[i];
+            System.out.println("이름:" + s.name + " 나이:" + s.age + " 성적:" + s.grade);
+        }
+
+        for(Student s : students){
+            System.out.println("이름:" + s.name + " 나이:" + s.age + " 성적:" + s.grade);
+        }
+
         System.out.println(student1);
         System.out.println(student2);
     }
