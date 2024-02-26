@@ -29,7 +29,6 @@ public class ProductOrderMain {
         }
         System.out.println("총 결제 금액: "+sum);
 
-
-
     }
+
 }
